@@ -6,14 +6,14 @@
   
   body {
      /* more on crazy alphanumerical value in a minute! */
-     color: #39a6b2;
+     color: #fbfbfb;
      font-family: Helvetica, Arial, sans-serif;
   }
   
   /* apply style to <header> */
   header {
     background-attachment: fixed;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/hero-bg1.jpg");
     background-size: cover;
     background-position: center;
     position: -webkit-sticky;
@@ -159,7 +159,7 @@
   
   /* Hero Style Start */
   .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/hero-bg1.jpg");
     background-size: auto;
     background-position: 85%;
     display: flex;
@@ -247,7 +247,7 @@
   /* Section title starts*/
   .section-title {
     font-size: 48px;
-    color: #024e76;
+    color: #fce138;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -268,7 +268,7 @@
     text-align: center;
     margin: 0 auto;
     line-height: 1.7;
-    color: #39a6b2;
+    color: #ffffff;
     width: 80%;
     font-size: 20px;
   }
