@@ -13,7 +13,7 @@
   /* apply style to <header> */
   header {
     background-attachment: fixed;
-    background-image: url("../images/hero-bg1.jpg");
+    /* background-image: url("../images/hero-bg1.jpg"); */
     background-size: cover;
     background-position: center;
     position: -webkit-sticky;
@@ -159,7 +159,8 @@
   
   /* Hero Style Start */
   .hero {
-    background-image: url("../images/hero-bg1.jpg");
+    background: #5c677d;
+    /* background-image: url("../images/hero-bg1.jpg"); */
     background-size: auto;
     background-position: 85%;
     display: flex;
