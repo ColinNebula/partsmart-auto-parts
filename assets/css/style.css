@@ -7,6 +7,7 @@
   body {
      /* more on crazy alphanumerical value in a minute! */
      color: #fbfbfb;
+     background-color: #5c677d;
      font-family: Helvetica, Arial, sans-serif;
   }
   
@@ -64,6 +65,53 @@
     border-radius: 15px;
     text-shadow: none;
   }
+
+  /* Hero Style Start */
+  .hero {
+    height: 400px;
+    width: 100%;
+    background: #5c677d;
+    background-image: url("../images/hero-bg1.jpg"); 
+    background-size: cover;
+    background-position: 85%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    /* background-attachment: fixed; */
+  }
+  
+  .hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
   
   .checkbox-wrapper input, .radio-wrapper input {
     opacity: 0;
@@ -124,13 +172,151 @@
     content: "";
   }
   /* Header Style Ends  */
-  
+ 
+
+  .parts {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Benefits elenent starts Here */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+
+.benefit-lead {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit-brand {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit-lead h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-brand h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-lead img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.benefit-brand img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* Benefits elenent Ends Here */
+
+/* Main content elenent starts Here */
+.search-engine-optimization {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+#online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/* Main content elenent starts Here */
+
+/* Main content images */
+.search-engine-optimization img {
+  max-height: 200px;
+}
+
+.parts img {
+  max-height: 200px;
+}
+
+.brands img {
+  max-height: 200px;
+}
+
+#online-reputation-management img {
+  max-height: 200px;
+}
+
+.social-media-marketing img {
+  max-height: 200px;
+}
+/* Main content images End */
+
+.search-engine-optimization h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.online-reputation-management h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* Main content element Ends Here */
   /* Footer Style starts  */
   footer {
     display: flex;
     justify-content: space-between;
     background: #5c677d;
     width: 100%;
+    clear: both;
     padding: 40px 35px;
     flex-wrap: wrap;
   }
@@ -157,34 +343,7 @@
     /* background-image: url("../images/hero-bg.jpg"); */
   }
   
-  /* Hero Style Start */
-  .hero {
-    background: #5c677d;
-    /* background-image: url("../images/hero-bg1.jpg"); */
-    background-size: auto;
-    background-position: 85%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start; 
-    background-attachment: fixed;
-  }
   
-  .hero-cta {
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.2;
-  }
-  
-  .hero-cta h2 {
-    font-style: italic;
-    font-size: 55px;
-    color: #fce138;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
   
   /* Hero Form Start */
   .hero-form {
@@ -198,6 +357,40 @@
     margin: 3.5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+  
+  .content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+#online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
   
   .form-input {
     background-color: rgba(255,255,255, 0.75);
